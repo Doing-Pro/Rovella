@@ -1,0 +1,41 @@
+
+<mxfile host="app.diagrams.net">
+  <diagram name="Collab Directory Space">
+    <mxGraphModel dx="900" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Space -->
+        <mxCell id="spaces" value="spaces&#xa;id (PK)&#xa;name&#xa;created_by&#xa;created_at&#xa;updated_at" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="160" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- Space Members -->
+        <mxCell id="space_members" value="space_members&#xa;id (PK)&#xa;space_id (FK)&#xa;user_id&#xa;role&#xa;created_at" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="200" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- Pages -->
+        <mxCell id="pages" value="pages&#xa;id (PK)&#xa;space_id (FK)&#xa;parent_id (FK)&#xa;title&#xa;type&#xa;data&#xa;sort_key&#xa;created_by&#xa;updated_by&#xa;created_at&#xa;updated_at&#xa;status&#xa;version" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="280" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- Blocks -->
+        <mxCell id="blocks" value="blocks&#xa;id (PK)&#xa;page_id (FK)&#xa;parent_id (FK)&#xa;type&#xa;content&#xa;sort_key&#xa;created_by&#xa;updated_by&#xa;created_at&#xa;updated_at" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="260" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- Page Embeds -->
+        <mxCell id="page_embeds" value="page_embeds&#xa;id (PK)&#xa;page_id (FK)&#xa;embed_page_id (FK)&#xa;created_by&#xa;created_at" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="200" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Page Permissions -->
+        <mxCell id="page_permissions" value="page_permissions&#xa;id (PK)&#xa;page_id (FK)&#xa;user_id&#xa;role&#xa;created_at" style="shape=swimlane;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="200" height="120" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

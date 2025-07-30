@@ -1,0 +1,20 @@
+{
+  "name": "Rovella",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -n client,server,admin -c green,blue,magenta \"pnpm run -C app/client-nx dev\" \"pnpm run -C app/server-ns dev\" \"pnpm run -C app/admin-v dev\"",
+    "start:test": "concurrently -n client,server,admin -c green,blue,magenta \"pnpm run -C app/client-nx start:test\" \"pnpm run -C app/server-ns start:test\" \"pnpm run -C app/admin-v start:test\"",
+    "dev:server": "pnpm run -C app/server-ns dev",
+    "dev:admin": "pnpm run -C app/admin-v dev",
+    "dev:client": "pnpm run -C app/client-nx dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.1",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
