@@ -6,7 +6,7 @@ export default function Page() {
       <div className="w-full max-w-md bg-white rounded-lg shadow-sm border border-gray-200">
         <div className="text-center space-y-2 pt-6 pb-4 px-6">
           <h1 className="text-2xl font-semibold text-gray-900">账号登录</h1>
-          <p className="text-sm text-gray-600">登录到 Rovella</p>
+          <p className="text-sm text-gray-600">登录到 Aidora</p>
         </div>
 
         <div className="space-y-4 px-6 pb-6">

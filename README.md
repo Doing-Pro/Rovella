@@ -1,8 +1,8 @@
-# Rovella
+# Aidora
 
 <div align="center">
 
-![Rovella Logo](https://img.shields.io/badge/Rovella-记录意志驱动的计划与行动-blue?style=for-the-badge)
+![Aidora Logo](https://img.shields.io/badge/Aidora-记录意志驱动的计划与行动-blue?style=for-the-badge)
 
 **Ro（Record） + velle（拉丁语"意志"）**
 
@@ -49,7 +49,7 @@
 ## 🏗️ 项目架构
 
 ```
-Rovella/
+Aidora/
 ├── 📁 app/                     # 应用程序目录
 │   ├── 📁 server-ns/          # NestJS 后端服务
 │   │   ├── 📁 src/
@@ -110,8 +110,8 @@ Rovella/
 #### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/Rovella.git
-cd Rovella
+git clone https://github.com/your-username/Aidora.git
+cd Aidora
 ```
 
 #### 2. 安装依赖
@@ -186,7 +186,7 @@ cp .env.example .env.development
 VITE_API_BASE_URL=http://localhost:8080
 
 # 应用标题
-VITE_APP_TITLE=Rovella 管理系统
+VITE_APP_TITLE=Aidora 管理系统
 ```
 
 #### 5. 启动服务
@@ -284,7 +284,7 @@ Vercel 是部署 NestJS 应用的最佳选择，支持无服务器函数和自�
 1. **配置环境变量**
    ```env
    VITE_API_BASE_URL=https://your-backend-domain.vercel.app
-   VITE_APP_TITLE=Rovella 管理系统
+   VITE_APP_TITLE=Aidora 管理系统
    ```
 
 2. **部署步骤**
@@ -365,7 +365,7 @@ Vercel 是部署 NestJS 应用的最佳选择，支持无服务器函数和自�
    npm install -g pm2
 
    # 启动应用
-   pm2 start dist/main.js --name "rovella-backend"
+   pm2 start dist/main.js --name "Aidora-backend"
 
    # 设置开机自启
    pm2 startup
@@ -388,7 +388,7 @@ Vercel 是部署 NestJS 应用的最佳选择，支持无服务器函数和自�
        }
 
        location / {
-           root /var/www/rovella-frontend;
+           root /var/www/Aidora-frontend;
            try_files $uri $uri/ /index.html;
        }
    }
@@ -405,7 +405,7 @@ Vercel 是部署 NestJS 应用的最佳选择，支持无服务器函数和自�
 2. **部署到服务器**
    ```bash
    # 将 dist 目录上传到服务器
-   scp -r dist/* user@server:/var/www/rovella-frontend/
+   scp -r dist/* user@server:/var/www/Aidora-frontend/
    ```
 
 ## 🛠️ 开发指南
@@ -718,7 +718,7 @@ A: 检查：
 
 1. **Fork 项目**
    ```bash
-   git clone https://github.com/your-username/Rovella.git
+   git clone https://github.com/your-username/Aidora.git
    ```
 
 2. **创建特性分支**
@@ -770,9 +770,9 @@ A: 检查：
 
 ## 📞 联系我们
 
-- 项目主页: [GitHub](https://github.com/your-username/Rovella)
-- 问题反馈: [Issues](https://github.com/your-username/Rovella/issues)
-- 讨论交流: [Discussions](https://github.com/your-username/Rovella/discussions)
+- 项目主页: [GitHub](https://github.com/your-username/Aidora)
+- 问题反馈: [Issues](https://github.com/your-username/Aidora/issues)
+- 讨论交流: [Discussions](https://github.com/your-username/Aidora/discussions)
 
 ---
 
@@ -780,6 +780,6 @@ A: 检查：
 
 **⭐ 如果这个项目对你有帮助，请给我们一个 Star！**
 
-Made with ❤️ by Rovella Team
+Made with ❤️ by Aidora Team
 
 </div>

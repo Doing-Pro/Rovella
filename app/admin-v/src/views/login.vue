@@ -5,7 +5,7 @@
 
   <div class="login">
     <el-form ref="loginRef" :model="loginForm.model" :rules="loginForm.rules" class="login-form">
-      <h3 class="title">Rovella后台管理系统</h3>
+      <h3 class="title">Aidora后台管理系统</h3>
       <el-form-item prop="userName">
         <el-input v-model.trim="loginForm.model.userName" maxlength="10" type="text" size="large" auto-complete="off" placeholder="账号">
           <template #prefix>

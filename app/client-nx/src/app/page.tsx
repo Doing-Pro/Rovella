@@ -17,7 +17,7 @@ export default function FlowUsLanding() {
                 <div className="w-2 h-2 bg-black rounded-sm"></div>
                 <div className="w-2 h-2 bg-black" style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}></div>
               </div>
-              <span className="text-xl font-semibold text-gray-900">Rovella 意志</span>
+              <span className="text-xl font-semibold text-gray-900">Aidora 意志</span>
             </div>
 
             <nav className="hidden md:flex items-center space-x-8">
@@ -57,7 +57,7 @@ export default function FlowUsLanding() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h1 className="text-5xl lg:text-6xl font-bold text-gray-900">Rovella 罗维拉</h1>
+                <h1 className="text-5xl lg:text-6xl font-bold text-gray-900">Aidora 罗维拉</h1>
                 <h2 className="text-2xl lg:text-3xl font-medium text-gray-700">新一代知识管理与协作平台</h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   像搭积木一样构建页面，像用数据库一样组织信息。集知识管理、项目协作、信息收集于一体，助力个人与团队高效工作。
@@ -90,7 +90,7 @@ export default function FlowUsLanding() {
               <div className="relative z-10">
                 <img
                   src="/hero-illustration.png"
-                  alt="Rovella Interface"
+                  alt="Aidora Interface"
                   className="w-full h-auto rounded-lg shadow-2xl"
                 />
               </div>
@@ -202,7 +202,7 @@ export default function FlowUsLanding() {
                   <div className="w-2 h-2 bg-white rounded-sm"></div>
                   <div className="w-2 h-2 bg-white" style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}></div>
                 </div>
-                <span className="text-xl font-semibold">Rovella 罗维拉</span>
+                <span className="text-xl font-semibold">Aidora 罗维拉</span>
               </div>
               <p className="text-gray-400">新一代知识管理与协作平台</p>
             </div>
@@ -287,7 +287,7 @@ export default function FlowUsLanding() {
           </div>
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Rovella. 保留所有权利。</p> 
+            <p>&copy; 2025 Aidora. 保留所有权利。</p> 
           </div>
         </div>
       </footer>
